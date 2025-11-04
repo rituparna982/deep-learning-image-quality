@@ -1,0 +1,17 @@
+{
+  "data_dir": "data/dataset",
+  "image_size": 224,
+  "batch_size": 16,
+  "epochs": 15,
+  "learning_rate": 0.001,
+  "num_workers": 2,
+  "model_name": "baseline_cnn",
+  "output_dir": "models",
+  "class_names": [
+    "blurry",
+    "dark",
+    "low_resolution",
+    "poor_background",
+    "good_quality"
+  ]
+}
