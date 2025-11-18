@@ -1,0 +1,10 @@
+{
+  "experiment": "baseline_cnn",
+  "number_of_classes": 5,
+  "validation_accuracy": 0.43,
+  "precision_macro": null,
+  "recall_macro": null,
+  "f1_score_macro": null,
+  "status": "baseline_experiment",
+  "note": "Additional transfer-learning experiments and class-level evaluation are planned."
+}
