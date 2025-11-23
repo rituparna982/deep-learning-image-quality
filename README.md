@@ -87,6 +87,61 @@ src/
 This repository presents a lightweight and reproducible version of the project.
 
 The complete dataset and large trained-model files are not included because of storage, licensing, and data-management considerations.
+## Quick Start
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rituparna982/deep-learning-image-quality.git
+cd deep-learning-image-quality
+```
+
+Create and activate a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+Linux or macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Organize the dataset using the following structure:
+
+```text
+data/dataset/
+├── blurry/
+├── dark/
+├── low_resolution/
+├── poor_background/
+└── good_quality/
+```
+
+Run training:
+
+```bash
+python src/train.py --config config.example.json
+```
+
+The best model checkpoint will be saved to:
+
+```text
+models/best_baseline_cnn.pt
+```
 
 ## Author
 
