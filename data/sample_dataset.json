@@ -1,0 +1,12 @@
+{
+  "classes": [
+    "blurry",
+    "dark",
+    "low_resolution",
+    "poor_background",
+    "good_quality"
+  ],
+  "image_size": "224x224",
+  "format": "RGB",
+  "framework": "PyTorch ImageFolder"
+}
