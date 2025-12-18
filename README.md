@@ -145,10 +145,4 @@ models/best_baseline_cnn.pt
 
 ## Author
 
-**Author:** Rituparna Satpathy ([@rituparna982](https://github.com/rituparna982))
-
-MSc Student in Smart Systems Engineering  
-An-Najah National University, Palestine
-
-- GitHub: [@rituparna982](https://www.linkedin.com/in/rituparna982/)
-- Email: s12154757@stu.najah.edu
+**Rituparna Satpathy** — [@rituparna982](https://github.com/rituparna982)
